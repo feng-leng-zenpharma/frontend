@@ -23,7 +23,7 @@ permissions:
   pull-requests: read
 
 env:
-  AWS_REGION: us-east-1
+  AWS_REGION: ca-central-1
   ECR_REPOSITORY: pharma-ui
   GITOPS_REPO: ${{ vars.GITOPS_REPO }}
 
